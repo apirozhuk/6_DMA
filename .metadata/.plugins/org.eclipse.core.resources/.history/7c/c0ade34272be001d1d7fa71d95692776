@@ -1,0 +1,33 @@
+#include "stm32f1xx_hal.h"
+#include "DMA.h"
+#include "UART.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+int main(void)
+{
+
+	HAL_Init();
+	UART_Init();
+
+
+	while(1)
+	{
+
+	}
+}
+
+void SysTick_Handler(void)
+{
+	HAL_IncTick();
+}

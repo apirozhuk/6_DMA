@@ -1,0 +1,21 @@
+#ifndef DMA_H
+#define DMA_H
+
+extern DMA_HandleTypeDef hdma1;
+
+void DMA_Init(void);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif // DMA_H
